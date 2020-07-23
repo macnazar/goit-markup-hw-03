@@ -35,7 +35,7 @@ ul {
 
 body {
   background: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #212121;
 }
@@ -191,6 +191,14 @@ body {
 }
 
 .img-about-us {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+
+  background: #f5f4fa;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
   margin-bottom: 30px;
 }
 
