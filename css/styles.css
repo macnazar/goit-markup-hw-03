@@ -51,6 +51,7 @@ body {
 
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /*-----Шапка сайту-----*/
@@ -187,6 +188,9 @@ body {
   display: flex;
   gap: 24px;
 } */
+.advantages {
+  padding-bottom: 60px;
+}
 
 .advantages-list {
   display: flex;
@@ -217,7 +221,9 @@ body {
 }
 
 /* ---Чим ми займаємось--- */
-
+.directions {
+  padding-top: 60px;
+}
 .directions-title {
   text-align: center;
   margin-bottom: 72px;
@@ -239,7 +245,6 @@ body {
 /* ---Наша команда--- */
 
 .team {
-  padding-bottom: 120px;
   background-color: var(--Light-color);
 }
 
@@ -269,8 +274,11 @@ body {
   color: var(--Dark-color);
 }
 
+.team-cards-text {
+  padding: 32px 0 32px 0;
+}
+
 .team-suptitle {
-  margin-top: 32px;
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -281,7 +289,6 @@ body {
 
 .team-subtitle {
   margin-top: 8px;
-  margin-bottom: 32px;
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
